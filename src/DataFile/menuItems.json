@@ -1,0 +1,133 @@
+{
+  "data": [
+    {
+      "id": "0",
+      "name": "Home",
+      "path": "/home",
+      "iconName": "Home",
+      "iconNumber": "0"
+    },
+    {
+      "id": "1",
+      "iconName": "dashboard",
+      "iconNumber": "1",
+      "name": "Dashboard",
+      "children": [
+        {
+          "id": "2",
+          "name": "Alarm",
+          "path": "/dashboard/alarm",
+          "iconName": "alarm"
+        },
+        {
+          "id": "3",
+          "name": "Video",
+          "path": "/dashboard/video",
+          "iconName": "Done"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "iconName": "MenuIcon",
+      "name": "Devices",
+      "iconNumber": "2",
+      "children": [
+        {
+          "id": "5",
+          "name": "Pumps",
+          "path": "/devices/pumps",
+          "iconName": "Done"
+        },
+        {
+          "id": "6",
+          "name": "Tanks",
+          "path": "/devices/tanks",
+          "iconName": "Done"
+        },
+        {
+          "id": "7",
+          "name": "Gateways",
+          "path": "/devices/gateways",
+          "iconName": "Done"
+        },
+        {
+          "id": "8",
+          "name": "RTUs",
+          "path": "/devices/rtus",
+          "iconName": "Done"
+        },
+        {
+          "id": "9",
+          "name": "Nodes",
+          "path": "/devices/nodes",
+          "iconName": "Done"
+        },
+        {
+          "id": "10",
+          "name": "LoRaWAN",
+          "path": "/devices/lorawan",
+          "iconName": "Done"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "iconName": "MenuIcon",
+      "name": "Sensors",
+      "iconNumber": "3",
+      "children": [
+        {
+          "id": "12",
+          "name": "Flow Meters",
+          "path": "/sensors/flowMeters",
+          "iconName": "Done"
+        },
+        {
+          "id": "13",
+          "name": "Presure",
+          "path": "/sensors/presure",
+          "iconName": "Done"
+        },
+        {
+          "id": "14",
+          "name": "Sensors Level",
+          "path": "/sensors/sensorsLevel",
+          "iconName": "Done"
+        },
+        {
+          "id": "15",
+          "name": "Valves",
+          "path": "/sensors/valves",
+          "iconName": "Done"
+        },
+        {
+          "id": "16",
+          "name": "Pump Monitor",
+          "path": "/sensors/pumpMonitor",
+          "iconName": "Done"
+        },
+        {
+          "id": "17",
+          "name": "LoRaWAN",
+          "path": "/sensors/lorawan",
+          "iconName": "Done"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Temperature",
+      "path": "/temperature",
+      "iconName": "Done",
+      "iconNumber":"4"
+   },
+    {
+      "id": "19",
+      "name": "Settings",
+      "path": "/settings",
+      "iconName": "Done",
+      "iconNumber":"5"
+    }
+  ]
+}
