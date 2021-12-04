@@ -30,7 +30,8 @@ const styles = theme => ({
     display: "flex"
   },
   appBar: {
-    zIndex: theme.zIndex.drawer + 1
+    zIndex: theme.zIndex.drawer + 1,
+    backgroundColor:"#1e496c"
   },
   appBarShift: {
     marginLeft: drawerWidth,
@@ -64,14 +65,18 @@ const styles = theme => ({
   drawer: {
     width: drawerWidth,
     flexShrink: 0,
-    whiteSpace: "nowrap"
+    whiteSpace: "nowrap",
+   
   },
   drawerOpen: {
     width: drawerWidth,
     transition: theme.transitions.create("width", {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.enteringScreen
-    })
+    }),
+    backgroundColor:"#426887",
+    color:'#729fcf',
+   
   },
   drawerClose: {
     transition: theme.transitions.create("width", {
@@ -98,6 +103,10 @@ const styles = theme => ({
   },
   grow: {
     flexGrow: 1
+  },
+  links:{
+    textDecoration:'none',
+    color:'#729fcf',
   }
 });
 
@@ -145,7 +154,6 @@ class MiniDrawer extends React.Component {
               <Link
                 to={subOption.path}
                 className={classes.links}
-                classNameUsed={classes}
                 >
 
                 <ListItemText
@@ -191,6 +199,7 @@ class MiniDrawer extends React.Component {
     return (
       <div className={classes.root}>
         <CssBaseline />
+        {/* Navigatrion bar top  start */}
         <AppBar
           position="fixed"
           className={classes.appBar}
@@ -248,6 +257,7 @@ class MiniDrawer extends React.Component {
             </div>
           </Toolbar>
         </AppBar>
+         {/* Navigatrion bar top  End */}
         <Drawer
           variant="permanent"
           className={classNames(classes.drawer, {
